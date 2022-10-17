@@ -126,6 +126,8 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.4.1-vsdoc.js" />
     <Content Include="pages\HotelHome.html" />
+    <Content Include="pages\style\fondoLogin.jpg" />
+    <Content Include="pages\style\style.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
