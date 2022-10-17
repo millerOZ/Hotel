@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="./style/reserva.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="row container">
+            <div class="large-7 small-12 columns imagePreview">
+            </div>
+            <div class="large-5 columns">
+                <h3>Reserva Habitación</h3>
+                <form action="#" class="small-12 small-centered columns">
+                    <label for="fechaLlegada">Fecha de llegada</label>
+                    <input type="date" id="txt" />
+                    <label for="fechaRegreso">Fecha de regreso</label>
+                    <input type="date" id="fechaRegreso" />
+                    <input type="checkbox" id="sinFecha" />
+                    <label for="sinFecha">Aún no tengo fechas específicas</label>
+                    <label for="escogeCamp">Escoge tu campamento</label>
+                    <select id="escogeCamp">
+                        <option value="campamentoNo1">Zona de camping No. 01</option>
+                        <option value="campamentoNo2">Zona de camping No. 02</option>
+                        <option value="campamentoNo3">Zona de camping No. 03</option>
+                        <option value="campamentoNo4">Zona de camping No. 04</option>
+                        <option value="campamentoNo5">Zona de camping No. 05</option>
+                    </select>
+                    <label>¿Quiénes irán?</label>
+                    <select id="adultosInvitados" class="small-5 columns">
+                        <option value="1">1 Adulto</option>
+                        <option value="2">2 Adultos</option>
+                        <option value="3">3 Adultos</option>
+                        <option value="4">4 Adultos</option>
+                        <option value="5">5 Adultos</option>
+                    </select>
+                    <select id="niñosInvitados" class="small-5 small-offset-2 columns">
+                        <option value="1">1 Niño</option>
+                        <option value="2">2 Niños</option>
+                        <option value="3">3 Niños</option>
+                        <option value="4">4 Niños</option>
+                        <option value="5">5 Niños</option>
+                    </select>
+                    <input type="button" value="Haz mi reserva" />
+                </form>
+            </div>
+    </div>
+</body>
+</html>
